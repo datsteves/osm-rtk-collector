@@ -97,5 +97,5 @@ export async function getPoint() {
 run();
 
 // setInterval(() => {
-//   console.debug(currentPos);
+//   console.debug(currentPos.fix);
 // }, 1000);

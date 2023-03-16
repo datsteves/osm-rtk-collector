@@ -1,0 +1,9 @@
+{
+  "ntrip": {
+    "host": "",
+    "port": 2101,
+    "mountpoint": "",
+    "username": "",
+    "password": ""
+  }
+}
