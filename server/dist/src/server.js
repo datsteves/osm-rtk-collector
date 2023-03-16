@@ -92,7 +92,7 @@ function getGPX(p) {
         const { alt, lat, lng, time, imagePath, name, ...rest } = elem;
         const props = [];
         Object.keys(rest).forEach(key => {
-            props.push(`<custom:${key}>${rest[key]}</${key}>`);
+            props.push(`<custom-${key}>${rest[key]}</custom-${key}>`);
         });
         props.push(`<ele>${elem.alt}</ele>`);
         props.push(`<time>${new Date(elem.time).toISOString()}</time>`);
